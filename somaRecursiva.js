@@ -1,3 +1,5 @@
+// 1 - Multiplicação de dois números naturais, através de somas sucessivas (Ex.: 6 ∗ 4 = 4 + 4 + 4 + 4 + 4 + 4).
+
 function somaRecursiva(numero1, numero2, soma = 0) {
   if (numero1 === 0) return soma;
   return somaRecursiva(numero1 - 1, numero2, soma + numero2);
